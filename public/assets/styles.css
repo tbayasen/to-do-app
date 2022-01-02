@@ -1,0 +1,99 @@
+/* General CSS */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: lightgray;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+div.container {
+  height: 80vh;
+  max-width: 540px;
+  background-color: white;
+  padding: 0;
+  margin: 10vh auto 10vh auto;
+  border-radius: 1.5rem;
+}
+
+header.header {
+  position: relative;
+  height: 25%;
+  background-color: lightskyblue;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  overflow: auto;
+}
+
+header > h1 {
+  width: 80%;
+  line-height: 2rem;
+  margin: 7.5rem auto 0 auto;
+}
+
+/* Content CSS */
+div.main {
+  height: 65%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul.list-table {
+  width: 100%;
+  list-style-type: none;
+}
+
+li.list-item {
+  width: 100%;
+  padding: 0.25rem;
+  line-height: 1.5rem;
+  border-bottom: lightgray 1px solid;
+  font-size: 1.25rem;
+}
+
+input.input-text {
+  width: 80%;
+  height: 2rem;
+}
+
+input#item-check {
+  margin-left: 1rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+input#item-check:hover {
+  cursor: pointer;
+}
+
+span.item-text {
+  margin-left: 2rem;
+  width: 80%;
+}
+
+i.trash-icon {
+  float: right;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+/* Input text box and submit button styling */
+div.input-container {
+  margin: 1.25rem auto 0.5rem auto;
+  overflow: auto;
+  width: 80%;
+  height: fit-content;
+}
+
+button#submit-btn {
+  margin-left: 0.5rem;
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
